@@ -1,0 +1,275 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: #e8e8e8;
+}
+
+.container-fluid {
+    /* background-color: #a2a2a2; */
+    background-color: #e8e8e8;
+}
+
+.nav-container
+
+/* nav */
+    {
+    /* background-color: brown; */
+    display: flex;
+    width: 100%;
+    /* height: 70px; */
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.logo {
+    font-family: 'Times New Roman', Times, serif !important;
+    font-weight: bold;
+
+}
+
+.nav-list {
+    /* background-color: salmon; */
+    position: relative;
+
+    display: flex;
+    width: 50%;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-list li a {
+    font-size: 12px;
+    font-variant-caps: small-caps;
+    color: #333;
+    border-radius: 20px;
+    text-decoration: none;
+    letter-spacing: 1.2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.contact {
+    /* background-color: aquamarine; */
+    width: 160px;
+    height: 20px;
+    font-size: 13px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+
+}
+
+.contact a {
+    text-decoration: none;
+    color: #333;
+    height: 20px;
+    word-spacing: 4px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+
+
+.description {
+    text-align: center;
+    /* background-color: yellow; */
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
+
+.gmail-desk {
+    /* background-color: salmon; */
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    /* margin-left: 70px; */
+    letter-spacing: 1px;
+}
+
+.desk-years {
+    display: flex;
+    width: 120px;
+    /* margin-left: 50px; */
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    /* background-color: salmon; */
+}
+
+
+
+.desk-hobby {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.footer-container-home {
+    /* margin-left: 100px; */
+    /* margin-bottom: 20px; */
+    display: flex;
+    /* width: 70%; */
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: #333; */
+}
+
+.img-footer {
+    width: 50px;
+    height: 50px;
+    background-image: url("assets/images/1.jpg");
+    /* background-color: yellow; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid rgb(24, 26, 24);
+    border-radius: 50%;
+    /* z-index: 2; */
+}
+
+.footer-job {
+    /* background-color: #fff; */
+    /* width: 160px;    */
+    font-size: 17px;
+    color: #222222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    letter-spacing: 0.5px;
+}
+
+.nav-mobile-list {
+    display: none;
+}
+
+
+/* Responsive laptop */
+
+@media screen and (max-width: 990px) {
+
+    .img {
+        padding: 10px 0;
+        overflow-x: auto;
+        display: flex;
+        cursor: pointer;
+    }
+
+    /* .img::-webkit-scrollbar, */
+    .gmail-desk,.desk-years {
+        display: none;
+    }
+
+    .img {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: row;
+    }
+
+    .img-home:hover {
+        transform: translateY(-5px);
+    }
+}
+
+/* Responsive laptop Selesai */
+
+
+
+/* REsponsive tablet */
+
+@media screen and (max-width: 768px) {
+
+    .nav-container {
+        padding-bottom: 0;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .footer-container-home {
+        display: none;
+    }
+
+    .nav-mobile-list {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1em;
+        margin: 0;
+        border-bottom: dashed 1px #333;
+        width: 100%;
+    }
+
+    .description {
+        padding: 30px 0;
+    }
+}
+
+/* tablet selesai */
+
+
+
+
+/* Responsive Hp Kecil  */
+
+@media screen and (max-width: 425px) {
+
+    .nav-list li a {
+        font-size: 10px;
+    }
+
+}
+
+/* Responsive Hp Kecil Selesai */
+
+
+
+
+
+/* Bagian Gambar */
+
+.img-home {
+    margin: .5em;
+    transition: .5s;
+}
+
+.img-home:hover {
+    border-radius: .5em;
+    box-shadow: 0 0 2em -9px #333;
+}
+
+.img-1 {
+    top: 115px;
+    left: 450px;
+    width: 104px;
+}
+
+.img-2 {
+    top: 110px;
+    left: 580px;
+    width: 200px;
+}
+
+.img-3 {
+    top: 110px;
+    left: 810px;
+    width: 100px;
+}
+
+.img-4 {
+    top: 260px;
+    left: 450px;
+    width: 180px;
+}
+
+.img-5 {
+    background-image: url('./assets/images/nezuko.gif');
+    background-size: cover;
+    /* width: 180px; */
+    /* height: 180px; */
+    background-position: center;
+}
+
+/* Bagian Gambar Selesai */

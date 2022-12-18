@@ -1,0 +1,99 @@
+/* #content {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgreen;
+}
+
+.content-left {
+    display: flex;
+    width: 500px;
+    height: 77vh;
+    padding: 20px 0;
+    background-color: blue;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.description {
+    text-align: center;
+    background-color: yellow;
+    font-size: 4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  !important;
+}
+
+.gmail-desk {
+    position: absolute;
+    background-color: salmon;
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    margin-left: 70px;
+    letter-spacing: 1px;
+}
+
+.desk-years {
+    display: flex;
+    width: 120px;
+    margin-left: 50px;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    background-color: salmon;
+}
+
+.content-right {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.desk-hobby {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.footer-container-home {
+    margin-left: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+}
+
+.img-footer {
+    width: 50px;
+    height: 50px;
+    background-image: url("assets/images/1.jpg");
+    background-color: yellow;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -19px;
+    border: 2px solid rgb(24, 26, 24);
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.footer-job {
+    background-color: #fff;
+    width: 160px;
+    font-size: 17px;
+    color: #0000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    letter-spacing: 0.5px;
+}
+
+.garis {
+    background-color: #333;
+    position: absolute;
+    left: 20px;
+    bottom: -10px;
+    width: 1220px;
+    height: 15px;
+    border-radius: 15px;
+} */
