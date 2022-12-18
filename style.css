@@ -26,7 +26,7 @@ html {
 }
 
 .logo {
-    font-family: 'Times New Roman', Times, serif !important;
+    font-family: sans-serif;
     font-weight: bold;
 
 }
@@ -68,7 +68,7 @@ html {
     color: #333;
     height: 20px;
     word-spacing: 4px;
-    font-weight: bold;
+    font-weight: 900;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
@@ -78,6 +78,7 @@ html {
     text-align: center;
     /* background-color: yellow; */
     font-size: 3em;
+    font-weight: 900;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
 }
 
@@ -155,8 +156,12 @@ html {
         cursor: pointer;
     }
 
-    /* .img::-webkit-scrollbar, */
-    .gmail-desk,.desk-years {
+    .img::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .gmail-desk,
+    .desk-years {
         display: none;
     }
 
@@ -165,10 +170,6 @@ html {
         align-items: center;
         justify-content: start;
         flex-direction: row;
-    }
-
-    .img-home:hover {
-        transform: translateY(-5px);
     }
 }
 
@@ -218,6 +219,12 @@ html {
 
     .nav-list li a {
         font-size: 10px;
+    }.desk-years-mobile {
+        display: flex;
+    }.footer-mobile{
+        display: flex;
+    }.job-mobile {
+        font-size: 12px;
     }
 
 }
@@ -233,11 +240,12 @@ html {
 .img-home {
     margin: .5em;
     transition: .5s;
+    border-radius: .5em;
 }
 
 .img-home:hover {
-    border-radius: .5em;
     box-shadow: 0 0 2em -9px #333;
+    transform: translateY(-5px);
 }
 
 .img-1 {
