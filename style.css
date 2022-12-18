@@ -3,6 +3,9 @@ html {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+}
+
+body {
     background-color: #e8e8e8;
 }
 
@@ -142,6 +145,8 @@ html {
 
 .nav-mobile-list {
     display: none;
+}.desk-years-mobile,.footer-mobile {
+    display: none;
 }
 
 
@@ -228,6 +233,7 @@ html {
     }
 
 }
+
 
 /* Responsive Hp Kecil Selesai */
 
