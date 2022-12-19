@@ -143,3 +143,44 @@ about mobile
                 <h1>1</h1>
                 <p>YEARS <br />EXPERIENCE</p>
               </div> -->
+
+
+
+
+
+
+
+
+
+
+
+              
+/* Responsive laptop */
+
+/* @media screen and (max-width: 990px) {
+
+    .img {
+        padding: 10px 0;
+        overflow-x: auto;
+        display: flex;
+        cursor: pointer;
+    }
+
+    .img::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .gmail-desk,
+    .desk-years {
+        display: none;
+    }
+
+    .img {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: row;
+    }
+} */
+
+/* Responsive laptop Selesai */

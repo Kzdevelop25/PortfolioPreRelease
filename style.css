@@ -193,12 +193,13 @@ body {
     border-radius: .5em;
 }
 
-
 /* REsponsive tablet */
 
 @media screen and (max-width: 768px) {
     .desktop {
         display: block;
+    }.desktop .container #content {
+        z-index: -9999;
     }
 
     .foto {
@@ -209,12 +210,14 @@ body {
         font-size: 1em;
     }
 
-    .text-desktop,.container .notif {
+    .text-desktop,
+    .container .notif {
         display: none;
     }
 
     .nav-container {
         padding-bottom: 0;
+
     }
 
     .nav-list {
@@ -224,6 +227,14 @@ body {
     .footer-container-home {
         display: none;
     }
+
+    .nav-mobile {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        background-color: #e8e8e8;
+    }
+
 
     .nav-mobile-list {
         display: flex;
@@ -261,6 +272,11 @@ body {
         align-items: center;
         justify-content: start;
         flex-direction: row;
+    }
+
+    .nav-mobile-list.sticky {
+        box-shadow: 0 0 .2em;
+        border-bottom: none;
     }
 
     .desk-years-mobile,
