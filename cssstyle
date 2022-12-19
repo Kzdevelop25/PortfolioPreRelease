@@ -1,4 +1,4 @@
-/* #content {
+#content {
     display: flex;
     justify-content: space-between;
     background-color: darkgreen;
@@ -96,4 +96,50 @@
     width: 1220px;
     height: 15px;
     border-radius: 15px;
-} */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+about mobile
+
+<!-- <div id="about">
+    <div class="container mt-2">
+      <div class="row align-items-center">
+        <div class="col-6">
+          <div class="desk-years desk-years-mobile mt-3">
+            <h1>1</h1>
+            <p>YEARS <br />EXPERIENCE</p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="footer-container-home footer-mobile mt-3">
+            <h3 class="footer-job job-mobile">BEGINNER <br />WEB DEVELOPER</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+  desk 
+
+
+  <!-- <p><a href="#" class="gmail-desk">raihanalkawsar92@gmail.com</a></p> -->
+            <!-- <div class="desk-years">
+                <h1>1</h1>
+                <p>YEARS <br />EXPERIENCE</p>
+              </div> -->
